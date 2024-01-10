@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="WaveViewerEx.PlayerCrosser"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WaveViewerEx"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" Width="198">
+    <Grid>
+        <Rectangle Stroke="Gray" Fill="Black" Height="4" VerticalAlignment="Bottom"/>
+        <Rectangle Stroke="Gray" Fill="Black" Height="4" VerticalAlignment="Top"/>
+        <Rectangle Margin="0,4,0,4" Stroke="Gray" Fill="Black" Width="4" HorizontalAlignment="Center"/>
+
+    </Grid>
+</UserControl>
